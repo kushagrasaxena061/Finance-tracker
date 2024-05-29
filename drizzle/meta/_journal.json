@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1717006206840,
+      "tag": "0000_hot_jack_murdock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1717006801603,
+      "tag": "0001_lethal_joseph",
+      "breakpoints": true
+    }
+  ]
+}
