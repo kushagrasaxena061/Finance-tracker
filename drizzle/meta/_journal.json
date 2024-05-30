@@ -15,6 +15,13 @@
       "when": 1717006801603,
       "tag": "0001_lethal_joseph",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1717087733400,
+      "tag": "0002_large_bill_hollister",
+      "breakpoints": true
     }
   ]
 }
