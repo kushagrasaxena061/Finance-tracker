@@ -67,7 +67,6 @@ const app = new Hono()
     zValidator(
       "json",
       insertCategorySchema.pick({
-        // CHANGE
         name: true,
       })
     ),
@@ -122,7 +121,7 @@ const app = new Hono()
     "/:id",
     clerkMiddleware(),
     zValidator("param", z.object({ id: z.string().optional() })),
-    zValidator("json", insertCategorySchema.pick({ name: true })), // CHANGE
+    zValidator("json", insertCategorySchema.pick({ name: true })),
     async (c) => {
       const auth = getAuth(c);
       const { id } = c.req.valid("param");

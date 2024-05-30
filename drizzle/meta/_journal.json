@@ -22,6 +22,13 @@
       "when": 1717087733400,
       "tag": "0002_large_bill_hollister",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1717093300898,
+      "tag": "0003_small_black_panther",
+      "breakpoints": true
     }
   ]
 }
